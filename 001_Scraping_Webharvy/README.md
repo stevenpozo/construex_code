@@ -69,16 +69,7 @@ Pasos rápidos para crear y usar el `.env` y la credencial JSON:
 /001_Scraping_Webharvy/004_Code/.env
 ```
 
-4) Si el JSON o el `.env` ya fueron commiteados anteriormente, desvincúlalos del control de versiones manteniéndolos locales:
-
-```powershell
-git rm --cached 001_Scraping_Webharvy/003_Service_Google_cloud/web-scraping-468121-9c845a21c06b.json
-git rm --cached 001_Scraping_Webharvy/004_Code/.env
-git commit -m "Remove sensitive files from repo and add to .gitignore"
-git push
-```
-
-5) Ejecuta el orquestador desde `004_Code`:
+4) Ejecuta el orquestador desde `004_Code`:
 
 ```powershell
 cd 001_Scraping_Webharvy/004_Code
