@@ -35,5 +35,54 @@
 - El proceso es cíclico y diseñado para correr continuamente con pausas entre ciclos.
 - Revisar `webharvy_pid.txt` si es necesario forzar el cierre de WebHarvy por timeout.
 - Mantener actualizadas las credenciales de `003_Service_Google_cloud` y las rutas en `.env`.
-
 ---
+
+**Configuración del archivo `.env` (no subir al repo)**
+⚠️ El archivo `004_Code/.env` contiene rutas y variables sensibles; no se sube al repositorio. A continuación hay una guía y un ejemplo mínimo de `.env` que puedes colocar en `001_Scraping_Webharvy/004_Code/.env` antes de ejecutar el orquestador.
+
+- **Qué hace:** Define rutas locales, credenciales y nombres de bucket necesarios para que los scripts encuentren archivos y accedan a Google Cloud.
+- **Importante:** Guarda la clave JSON de la cuenta de servicio en `001_Scraping_Webharvy/003_Service_Google_cloud` (no commits), y comprueba que `.gitignore` contiene la entrada para ese JSON y para este `.env`.
+
+Ejemplo de `.env` (adaptar rutas a tu entorno):
+
+```
+GOOGLE_APPLICATION_CREDENTIALS=../003_Service_Google_cloud/web-scraping-468121-9c845a21c06b.json
+PENDING_LINKS_DIR=../001_Links_Facebook/001_Pending_Links
+WEBHARVY_PATH=C:/Users/steve/AppData/Roaming/SysNucleus/WebHarvy/WebHarvy.exe
+PROJECT_PATH=../002_Data/002_Photos_Facebook/extract_photos_fb.xml
+PENDING_CSV_DIR=../002_Data/001_Data_CSV/001_Pending_CSV
+PROCESSED_CSV_DIR=../002_Data/001_Data_CSV/002_Processed_CSV
+PENDING_PHOTOS_DIR=../002_Data/002_Photos_Facebook
+PROCESSED_PHOTOS_DIR=../002_Data/002_Photos_Facebook/002_Processed_Photos
+PROCESSED_LINKS_DIR=../001_Links_Facebook/002_Processed_Links
+BUCKET_NAME=fb_images_cloud
+```
+
+Pasos rápidos para crear y usar el `.env` y la credencial JSON:
+
+1) Copia el ejemplo arriba en `001_Scraping_Webharvy/004_Code/.env` y actualiza rutas si hace falta.
+2) Coloca el archivo de credenciales de servicio de Google (JSON) en `001_Scraping_Webharvy/003_Service_Google_cloud`.
+3) Verifica que `.gitignore` contenga estas líneas (ya añadidas en este repo):
+
+```
+/001_Scraping_Webharvy/003_Service_Google_cloud/web-scraping-468121-9c845a21c06b.json
+/001_Scraping_Webharvy/004_Code/.env
+```
+
+4) Si el JSON o el `.env` ya fueron commiteados anteriormente, desvincúlalos del control de versiones manteniéndolos locales:
+
+```powershell
+git rm --cached 001_Scraping_Webharvy/003_Service_Google_cloud/web-scraping-468121-9c845a21c06b.json
+git rm --cached 001_Scraping_Webharvy/004_Code/.env
+git commit -m "Remove sensitive files from repo and add to .gitignore"
+git push
+```
+
+5) Ejecuta el orquestador desde `004_Code`:
+
+```powershell
+cd 001_Scraping_Webharvy/004_Code
+python main.py
+```
+
+Si quieres, puedo añadir un pequeño `README_ENV.md` separado con pasos ampliados (creación de la cuenta de servicio en Google Cloud, permisos mínimos, y comprobaciones). Indica si lo añado.
