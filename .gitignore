@@ -3,5 +3,14 @@ Services/
 # Ignore the Google service account JSON for the scraping module (keep the folder)
 /001_Scraping_Webharvy/003_Service_Google_cloud/web-scraping-468121-9c845a21c06b.json
 
-# Ignore local .env for the scraping module code
-/001_Scraping_Webharvy/004_Code/.env
+# Ignore any JSON credential files inside any `Service/` folder (safe blanket rule)
+**/Service/*.json
+
+# Specific explicit rule for the Brasil scraping Service folder
+/002_Scraping_Apify/Scraping_brasil/Service/*.json
+
+
+# Ignore local .env 
+*.env
+
+

@@ -1,0 +1,165 @@
+DESCRIPCIÓN : Se lanzaron 5 empresas a scrapear
+FECHA: 2025-12-03 18:42:22
+PROCESADO: TRUE
+
+ACTORES USADOS:
+- APIFY_ACTOR_PHOTOS
+    - id = b8niWNEdpa6ikxjEP
+    - enlace = https://my.apify.com/actors/sZZXWhobbj7dZpHhg/runs/b8niWNEdpa6ikxjEP
+
+- APIFY_ACTOR_PAGE
+    - id = r1UVgxIl8JMLNIMuA
+    - enlace = https://my.apify.com/actors/4Hv5RhChiaDk6iwad/runs/r1UVgxIl8JMLNIMuA
+
+-----------------------------------------
+
+DESCRIPCIÓN : Se lanzaron 5 empresas a scrapear
+FECHA: 2025-12-03 18:51:00
+PROCESADO: TRUE
+
+ACTORES USADOS:
+- APIFY_ACTOR_PHOTOS
+    - id = 6m2vDcq8ZYtsQZSfe
+    - enlace = https://my.apify.com/actors/sZZXWhobbj7dZpHhg/runs/6m2vDcq8ZYtsQZSfe
+
+- APIFY_ACTOR_PAGE
+    - id = 1yAPZxV1JStpuPFgz
+    - enlace = https://my.apify.com/actors/4Hv5RhChiaDk6iwad/runs/1yAPZxV1JStpuPFgz
+
+-----------------------------------------
+
+DESCRIPCIÓN : Se lanzaron 5 empresas a scrapear
+FECHA: 2025-12-03 18:52:24
+PROCESADO: TRUE
+
+ACTORES USADOS:
+- APIFY_ACTOR_PHOTOS
+    - id = N7prgzy5EFNDNOezy
+    - enlace = https://my.apify.com/actors/sZZXWhobbj7dZpHhg/runs/N7prgzy5EFNDNOezy
+
+- APIFY_ACTOR_PAGE
+    - id = tFjMlaxF1GpanyMpV
+    - enlace = https://my.apify.com/actors/4Hv5RhChiaDk6iwad/runs/tFjMlaxF1GpanyMpV
+
+-----------------------------------------
+
+DESCRIPCIÓN : Se lanzaron 5 empresas a scrapear
+FECHA: 2025-12-03 19:05:46
+PROCESADO: TRUE
+
+ACTORES USADOS:
+- APIFY_ACTOR_PHOTOS
+    - id = QUBJkYdA7HMpCG7kD
+    - enlace = https://my.apify.com/actors/sZZXWhobbj7dZpHhg/runs/QUBJkYdA7HMpCG7kD
+
+- APIFY_ACTOR_PAGE
+    - id = Wkc5kIQCPWdbaL6CN
+    - enlace = https://my.apify.com/actors/4Hv5RhChiaDk6iwad/runs/Wkc5kIQCPWdbaL6CN
+
+-----------------------------------------
+
+DESCRIPCIÓN : Se lanzaron 5 empresas a scrapear
+FECHA: 2025-12-03 19:11:51
+PROCESADO: TRUE
+
+ACTORES USADOS:
+- APIFY_ACTOR_PHOTOS
+    - id = 2OTWI7473crO5maCx
+    - enlace = https://my.apify.com/actors/sZZXWhobbj7dZpHhg/runs/2OTWI7473crO5maCx
+
+- APIFY_ACTOR_PAGE
+    - id = c33W9qeBuB45DfqeN
+    - enlace = https://my.apify.com/actors/4Hv5RhChiaDk6iwad/runs/c33W9qeBuB45DfqeN
+
+-----------------------------------------
+
+DESCRIPCIÓN : Se lanzaron 5 empresas a scrapear
+FECHA: 2025-12-03 19:18:01
+PROCESADO: TRUE
+
+ACTORES USADOS:
+- APIFY_ACTOR_PHOTOS
+    - id = Aavag1b2OdUx1Ffxi
+    - enlace = https://my.apify.com/actors/sZZXWhobbj7dZpHhg/runs/Aavag1b2OdUx1Ffxi
+
+- APIFY_ACTOR_PAGE
+    - id = pACauPtdXfPjKacBi
+    - enlace = https://my.apify.com/actors/4Hv5RhChiaDk6iwad/runs/pACauPtdXfPjKacBi
+
+-----------------------------------------
+
+DESCRIPCIÓN : Se lanzaron 2 empresas a scrapear
+FECHA: 2025-12-03 19:21:51
+PROCESADO: TRUE
+
+ACTORES USADOS:
+- APIFY_ACTOR_PHOTOS
+    - id = fThn56qMVk2dGpy3m
+    - enlace = https://my.apify.com/actors/sZZXWhobbj7dZpHhg/runs/fThn56qMVk2dGpy3m
+
+- APIFY_ACTOR_PAGE
+    - id = lCxLBtKmEKZD4Nh8b
+    - enlace = https://my.apify.com/actors/4Hv5RhChiaDk6iwad/runs/lCxLBtKmEKZD4Nh8b
+
+-----------------------------------------
+
+DESCRIPCIÓN : Se lanzaron 2 empresas a scrapear
+FECHA: 2025-12-03 19:32:06
+PROCESADO: TRUE
+
+ACTORES USADOS:
+- APIFY_ACTOR_PHOTOS
+    - id = ZHw53Xbx8pxy2PCb5
+    - enlace = https://my.apify.com/actors/sZZXWhobbj7dZpHhg/runs/ZHw53Xbx8pxy2PCb5
+
+- APIFY_ACTOR_PAGE
+    - id = MCCKhlrSDwIochTVu
+    - enlace = https://my.apify.com/actors/4Hv5RhChiaDk6iwad/runs/MCCKhlrSDwIochTVu
+
+-----------------------------------------
+
+DESCRIPCIÓN : Se lanzaron 2 empresas a scrapear
+FECHA: 2025-12-03 19:38:54
+PROCESADO: TRUE
+
+ACTORES USADOS:
+- APIFY_ACTOR_PHOTOS
+    - id = dqulbEMJMyM2oikBn
+    - enlace = https://my.apify.com/actors/sZZXWhobbj7dZpHhg/runs/dqulbEMJMyM2oikBn
+
+- APIFY_ACTOR_PAGE
+    - id = 7bsLVCama46sxObK6
+    - enlace = https://my.apify.com/actors/4Hv5RhChiaDk6iwad/runs/7bsLVCama46sxObK6
+
+-----------------------------------------
+
+DESCRIPCIÓN : Se lanzaron 10 empresas a scrapear
+FECHA: 2025-12-03 19:42:07
+PROCESADO: TRUE
+
+ACTORES USADOS:
+- APIFY_ACTOR_PHOTOS
+    - id = AANO1DWOYbek8qK3b
+    - enlace = https://my.apify.com/actors/sZZXWhobbj7dZpHhg/runs/AANO1DWOYbek8qK3b
+
+- APIFY_ACTOR_PAGE
+    - id = oo9yWCyRxDHYLvBQd
+    - enlace = https://my.apify.com/actors/4Hv5RhChiaDk6iwad/runs/oo9yWCyRxDHYLvBQd
+
+-----------------------------------------
+
+DESCRIPCIÓN : Se lanzaron 10 empresas a scrapear
+FECHA: 2025-12-03 19:42:51
+PROCESADO: TRUE
+
+ACTORES USADOS:
+- APIFY_ACTOR_PHOTOS
+    - id = y02lTS4gMRWDYbKGs
+    - enlace = https://my.apify.com/actors/sZZXWhobbj7dZpHhg/runs/y02lTS4gMRWDYbKGs
+
+- APIFY_ACTOR_PAGE
+    - id = LN4PVxIT8Cj2fmgoo
+    - enlace = https://my.apify.com/actors/4Hv5RhChiaDk6iwad/runs/LN4PVxIT8Cj2fmgoo
+
+-----------------------------------------
+
